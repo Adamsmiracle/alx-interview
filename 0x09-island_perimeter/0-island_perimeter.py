@@ -6,7 +6,7 @@ def island_perimeter(grid):
     """returns the perimeter of the island described in a grid"""
     counter = 0
     grid_max = len(grid) - 1
-    lst_max = len(grid[0]) - 1 
+    lst_max = len(grid[0]) - 1
 
     for lst_idx, lst in enumerate(grid):
         for land_idx, land in enumerate(lst):
